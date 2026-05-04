@@ -57,6 +57,12 @@ select customer_type, COUNT(*) as total_bookings
 from hotel_bookings
 group by customer_type;
 
+#REVENUE BY CITY
+select hotel_city, sum(total_price) as total_revenue
+from hotel_bookings
+group by hotel_city
+order by total_revenue DESC;
+
 #REVENUE BY ROOM TYPE
 select room_type, SUM(total_price) as revenue
 from hotel_bookings

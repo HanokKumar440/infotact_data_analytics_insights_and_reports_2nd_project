@@ -20,6 +20,7 @@ The dataset was cleaned and structured in Excel before being used for further SQ
   - Total revenue  
   - Cancellation rate  
   - Average daily rate  
+  - Revenue By City
 
 - Conducted analysis on:
   - City-wise booking distribution  

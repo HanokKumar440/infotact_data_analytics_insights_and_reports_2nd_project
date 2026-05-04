@@ -58,16 +58,18 @@ from hotel_bookings
 group by customer_type;
 
 #REVENUE BY CITY
-select hotel_city, sum(total_price) as total_revenue
-from hotel_bookings
-group by hotel_city
-order by total_revenue DESC;
+SELECT hotel_city, SUM(total_price) AS estimated_revenue,
+SUM(CASE WHEN is_canceled = 0 THEN total_price ELSE 0 END) AS actual_revenue
+FROM hotel_bookings
+GROUP BY hotel_city
+ORDER BY actual_revenue DESC;
 
 #REVENUE BY ROOM TYPE
-select room_type, SUM(total_price) as revenue
-from hotel_bookings
-group by room_type
-order by revenue DESC;
+SELECT room_type, SUM(total_price) AS estimated_revenue,
+SUM(CASE WHEN is_canceled = 0 THEN total_price ELSE 0 END) AS actual_revenue
+FROM hotel_bookings
+GROUP BY room_type
+ORDER BY actual_revenue DESC;
 
 #LEAD TIME VS CANCELLATION
 select lead_time, avg(canceled) as cancellation_rate

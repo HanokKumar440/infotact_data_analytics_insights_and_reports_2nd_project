@@ -32,3 +32,37 @@ The dataset was cleaned and structured in Excel before being used for further SQ
 - Generated aggregated datasets which were exported for dashboard development
 
 SQL was used to transform raw transactional data into meaningful aggregated insights for further analysis and visualization.
+
+## Python Exploratory Data Analysis (EDA)
+
+- Performed exploratory data analysis using Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn  
+- Loaded and inspected the dataset to understand structure, data types, and distributions  
+- Identified missing values and ensured data consistency  
+
+### Key Analyses Performed
+
+- **Cancellation Analysis:**  
+  Examined the proportion of canceled vs non-canceled bookings to understand overall cancellation behavior  
+
+- **Lead Time Analysis:**  
+  Analyzed the relationship between lead time and cancellations to identify how booking timing impacts cancellation probability  
+
+- **Revenue Distribution:**  
+  Visualized total price distribution to understand revenue spread and detect outliers  
+
+- **City-wise Performance:**  
+  Aggregated revenue across cities to identify top-performing locations  
+
+- **Correlation Analysis:**  
+  Generated a correlation matrix to identify relationships between numerical features such as lead time, stay duration, and pricing  
+
+### Insights
+
+- Higher lead time bookings tend to show increased cancellation rates  
+- Revenue distribution is skewed, indicating variation in booking values  
+- Certain cities contribute significantly more to total revenue  
+- Feature relationships help in selecting variables for further analysis and modeling  
+
+---
+
+This EDA step helped in uncovering patterns and preparing the dataset for advanced analysis such as A/B testing and predictive modeling.

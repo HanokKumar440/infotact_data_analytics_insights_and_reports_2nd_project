@@ -63,6 +63,30 @@ SQL was used to transform raw transactional data into meaningful aggregated insi
 - Certain cities contribute significantly more to total revenue  
 - Feature relationships help in selecting variables for further analysis and modeling  
 
+This EDA step helped in uncovering patterns and preparing the dataset for advanced analysis such as A/B testing and predictive modeling.
+
 ---
 
-This EDA step helped in uncovering patterns and preparing the dataset for advanced analysis such as A/B testing and predictive modeling.
+## Python Exploratory Data Analysis (EDA)
+
+Performed exploratory data analysis on the hospitality booking dataset using Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn to identify booking trends, customer behavior, and cancellation patterns.
+
+### Key Analyses Performed
+- Analyzed booking and cancellation trends  
+- Studied the relationship between lead time and cancellations  
+- Compared estimated revenue, actual revenue, and revenue loss due to cancellations  
+- Performed city-wise and customer segment analysis  
+- Generated correlation matrix to identify relationships between numerical features  
+
+### Visualizations Created
+- Cancellation distribution charts  
+- Revenue distribution plots  
+- Lead time analysis visuals  
+- City-wise booking and revenue comparisons  
+- Correlation heatmaps  
+
+### Key Insights
+- Higher lead time bookings showed increased cancellation probability  
+- Revenue loss due to cancellations significantly impacted business performance  
+- Certain cities contributed more to overall revenue  
+- Insights generated from EDA supported further A/B testing and predictive modeling

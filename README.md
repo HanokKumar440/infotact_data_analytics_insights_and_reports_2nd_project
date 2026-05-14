@@ -90,3 +90,18 @@ Performed exploratory data analysis on the hospitality booking dataset using Pyt
 - Revenue loss due to cancellations significantly impacted business performance  
 - Certain cities contributed more to overall revenue  
 - Insights generated from EDA supported further A/B testing and predictive modeling
+
+## Dashboard Development
+
+Developed an interactive Power BI dashboard to visualize booking trends, revenue insights, cancellations, and customer behavior.
+
+### Dashboard Features
+- KPI cards for bookings, revenue, and cancellation rate  
+- Monthly booking and revenue trends  
+- City-wise revenue analysis  
+- Lead time category analysis  
+- Interactive slicers and filters  
+
+### Dashboard Preview
+
+![Dashboard Preview](dashboard/dashboard_preview.png)

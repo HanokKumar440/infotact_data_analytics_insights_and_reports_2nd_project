@@ -104,4 +104,13 @@ Developed an interactive Power BI dashboard to visualize booking trends, revenue
 
 ### Dashboard Preview
 
-![Dashboard Preview](dashboard/dashboard_preview.png)
+<p align="center">
+  <img src="dashboard/Dashboard_preview.png" alt="Dashboard Preview" width="900">
+</p>
+
+
+## Team and Responsibilities:-
+Hanok Kumar(TL) - SQL, Excel & Github manager
+Subhojit -  Excel & Dashboard
+Harsh - Python(Churn Analysis)
+Sampath - Python(EDA)
